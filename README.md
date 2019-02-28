@@ -1,5 +1,5 @@
 # Code snippets from old R data analyses
-This repository is a contains some R code I've used in data analysis (univariate and multivariate meta-analyses). [[ADD BRIEF DESCRIPTION]]]
+This repository is a contains some R code I've used in past data analyses (univariate and multivariate meta-analyses). [[ADD BRIEF DESCRIPTION]]]
 
 It is currently unorganized and does not (and will not) include the original dataset, in whole or in part, and cannot be run from this repository.
 
