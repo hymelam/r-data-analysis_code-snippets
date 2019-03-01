@@ -103,7 +103,7 @@ wt_winsor <- function(x, coef=1.5, to="fence", skew = FALSE){
   high_outlier <- ifelse(x > high_tukey, TRUE, FALSE)
   low_outlier <- ifelse(x < low_tukey, TRUE, FALSE) 
   
-  # Return vector of corrected values
+  # Create vector of corrected values
   if(all(x==x[min(which(!is.na(x)))], na.rm=TRUE)){
     # If all values of x are equal, return the original vector
     # (Compares vector against the first non-NA value in the vector)
