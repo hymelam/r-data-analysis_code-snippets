@@ -5,3 +5,6 @@ This repository contains two R files I've used in a past meta-analysis project.
 
 These files are a few years old and much of the documentation lived externally to the R files (SPSS data dictionaries, Word files). I'm currently working on converting the code to a workable example (the dataset the code was built to handle will not be made available in this repository). Cleaned code snippets and functions will be added to this repository as they are created.
 
+## Updated code:
+1. [Outlier handling methods](outlier-handling.md)
+
