@@ -45,7 +45,7 @@ Arguments
 </tr>
 <tr class="odd">
 <td><code>to</code></td>
-<td>identifies the point to which outliers should be adjusted. If &quot;fence&quot;, replaces outliers with the outlier cutoff. If &quot;value&quot;, replaces outliers with the most extreme non-oulier present in the dataset</td>
+<td>identifies the point to which outliers should be adjusted. If &quot;fence&quot;, replaces outliers with the outlier cutoff. If &quot;value&quot;, replaces outliers with the most extreme non-outlier present in the dataset</td>
 </tr>
 <tr class="even">
 <td><code>skew</code></td>
