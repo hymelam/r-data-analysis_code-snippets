@@ -110,7 +110,7 @@ wt_winsor <- function(x, coef=1.5, to="fence", skew = FALSE){
     # [--- SEE NOTE 2 ---]
     es_tukey <- x
   } else if (to == "fence") { # If using fence
-    # Replace value with high/low tukey fence for high/low outliers, respectively 
+    # Replace value with high/low fence for high/low outliers, respectively 
     # Keep original values for non-outliers
     es_tukey <- ifelse(low_outlier, low_tukey,
                        ifelse(high_outlier, high_tukey, x))
