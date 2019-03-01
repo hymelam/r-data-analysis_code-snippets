@@ -1,5 +1,5 @@
 # Code snippets from old R data analyses
-This repository contains two R files I've used in past a past meta-analysis project.
+This repository contains two R files I've used in a past meta-analysis project.
 1. [Dataset prep](01_wtg-analysis_cluster-corrections-and-winsorizing.r)
 2. [Analyses](02_wtg-analysis_analysis.r)
 
