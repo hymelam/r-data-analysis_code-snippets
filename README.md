@@ -1,10 +1,13 @@
-# Code snippets from old R data analyses
-This repository contains two R files I've used in a past meta-analysis project.
-1. [Dataset prep](01_wtg-analysis_cluster-corrections-and-winsorizing.r)
-2. [Analyses](02_wtg-analysis_analysis.r)
+# Old R analysis code
 
-These files are a few years old and much of the documentation lived externally to the R files (SPSS data dictionaries, Word files). I'm currently working on converting the code to a more readable state (the dataset the code was built to handle will not be made available in this repository). Cleaned code snippets and functions will be added to this repository as they are created.
+This repository contains R code from a 2013 meta-analysis. Some data processing steps were conducted in SPSS, and that code is not included here. Click the link below to navigate to the file. Additional formatting and narrative text have been added.
 
-## Updated code:
+[Data processing and analyses](meta-analysis-example.md)
+
+
+## Extracted functions
+
+The following code has been extracted from the above analysis and is generalizable to any dataset:
+
 1. [Outlier handling methods](outlier-handling.md)
 
