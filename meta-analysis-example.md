@@ -1254,7 +1254,7 @@ data <- subset(data, select = -c(rand_rnd, min_rand_rnd))
 rm(agg_rnd)
 ```
 
-1.  Within each analytic dataset, compute the weighted mean and weighted variance for each study.
+2.  Within each analytic dataset, compute the weighted mean and weighted variance for each study.
 
 ``` r
 # OPTIONAL: WEIGHTED MEAN EFFECT SIZE AND WEIGHTED MEAN VARIANCE DATA FRAME
